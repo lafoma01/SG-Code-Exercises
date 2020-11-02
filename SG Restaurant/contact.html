@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+	Name: Maxwell Lafontant
+	Date Created: 10/17/2020
+	Most Recent Revision: 11/1/2020
+-->
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Contact Us</title>
+		  <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+		<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+		<style>
+			section {
+				text-align: center;
+			}
+			
+			.label {
+				margin: 8px auto;
+			}
+			
+			textarea {
+				height: 150px;
+				vertical-align: top;
+			}
+			
+			.bold {
+				font-weight: bold;
+			}
+					
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			<h1>San Giorgio's Ristorante</h1>
+		</header>
+		
+		<nav>
+			<hr />
+			<p>
+				<a class="btn badge-pill" href="index.html"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+					<path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+				</svg></a>
+				<a class="btn badge-pill" href="menu.html">Menu</a>
+				<a class="btn badge-pill" href="contact.html">Contact Us</a>
+			</p>
+			<hr />
+		</nav>
+		
+		<section>
+			<form action="submit.html: method="POST">
+				<div class="label">
+				<label for="Name" class="bold">Name:</label>
+					<input type="text" id="name" name="name"> <br />
+				</div>
+				<div class="label">
+				<label for="Email" class="bold">Email:</label>
+					<input type="text" id="Email" name="Email"> <br />
+				</div>
+				<div class="label">
+				<label for="Phone" class="bold">Phone:</label>
+					<input type="text" id="Phone" name="Phone"> <br />
+				</div>
+				<div class="label">
+				<label for="Reason">Reason for Inquiry:</label>
+					<select id="Reason" name="Reason">
+						<option value="Catering" selected>Catering</option>
+						<option value="privateParty">Private Party</option>
+						<option value="Feedback">Feedback</option>
+						<option value="Other">Other</option>
+					</select> <br />
+				</div>
+				<div class="label">
+				<label for="info">Additional Information:</label>
+					<textarea id="info" name="info"></textarea> <br />
+				</div>
+				<div class="label">
+				<fieldset>
+					<legend>Have you been to the restaurant?</legend>
+						<input type="radio" id="choice1" name="previousVisit" value="no">
+							<label for="choice1">No</label>
+						<input type="radio" id="choice2" name="previousVisit" value="yes">
+							<label for="choice2">Yes</label>
+				</fieldset> <br />
+				</div>
+				<div class="label">
+				<fieldset>
+					<legend>Best days to contact you:</legend>
+						<input type="checkbox" id="M" name="contactDays" value="M">
+							<label for="M">M</label>
+						<input type="checkbox" id="T" name="contactDays" value="T">
+							<label for="T">T</label>
+						<input type="checkbox" id="W" name="contactDays" value="W">
+							<label for="W">W</label>
+						<input type="checkbox" id="Th" name="contactDays" value="Th">
+							<label for="Th">Th</label>
+						<input type="checkbox" id="F" name="contactDays" value="F">
+							<label for="F">F</label>
+				</fieldset> <br />
+				</div>
+				<input type="submit" name="sendRequest" value="Send Request">
+		</section>
+		<footer>
+			<hr />
+			<p>15 S 5th St #600, Minneapolis, MN 55402</p>
+			<p>(855)599-9584</p>
+		</footer>.
+		<!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+/*
+Name: Maxwell Lafontant
+Date Created: 10/24/2020
+Most Recent Revision: 11/1/2020
+*/
+
+header, footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Syne Mono', monospace;
+}
+
+nav a:visited {
+	color: pink;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+nav a:active {
+	text-decoration: none;
+}
+
+nav .btn {
+    background-color: black;
+    color: white; 
+}

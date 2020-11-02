@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--
+	Name: Maxwell Lafontant
+	Date Created: 10/17/2020
+	Most Recent Revision: 11/1/2020
+-->
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Menu</title>
+		  <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+		<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+		<style>
+		
+		table {
+			text-align: center;
+			margin: 15px auto;
+		}
+		
+		th, td {
+			width: 30%;
+		}
+		
+		th {
+			font-weight: heavy;
+			font-size: 1.2em;
+		}
+		
+		section {
+			background-color: yellow;
+				}
+		
+		.drink {
+			width: 60%;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			<h1>San Giorgio's Ristorante</h1>
+		</header>
+		
+		<nav>
+			<hr />
+			<p>
+				<a class="btn badge-pill" href="index.html"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+					<path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+				</svg></a>
+				<a class="btn badge-pill" href="menu.html">Menu</a>
+				<a class="btn badge-pill" href="contact.html">Contact Us</a>
+			</p>
+			<hr />
+		</nav>
+		
+		<section>
+			<article>
+				<table>
+					<tr id="name">
+						<th>Burger and Fries</th>
+						<th>Hot Dog and Chips</th>
+						<th>Italian Sausage and Peppers</th>
+					</tr>
+					<tr id="tagline">
+						<td>An American Classic!</td>
+						<td>A Summer Classic!</td>
+						<td>An All-Time Favorite</td>
+					</tr>
+					<tr id="description">
+						<td>Your choice - with or without cheese<br>Pickle, onion, tomato, and lettuce<br>Served with our famous thick cut french fries</td>
+						<td>Your choice - white or wheat bun<br>Relish, mustard and Ketchup<br>Served with our house-made chips</td>
+						<td>Your choice - mild or spicy Cole Slaw<br>Served with garlic mashers</td>
+					</tr>
+					<tr id="price">
+						<td>$7.95</td>
+						<td>$7.95</td>
+						<td>$10.95</td>
+					</tr>
+				</table>
+			</article>
+			<article>
+				<table>
+					<tr id="name">
+						<th>Tenderloin Sandwich and Chips</th>
+						<th>House Salad</th>
+						<th>Brisket Sandwich and Fries</th>
+					</tr>
+					<tr id="tagline">
+						<td>Really Hits the Spot!</td>
+						<td>On the Lighter Side</td>
+						<td>A Taste of Texas!</td>
+					</tr>
+					<tr id="description">
+						<td>Plain or Sesame See Bun<br>Pickle, onion, tomato, and lettuce<br>Served with our house-made chips</td>
+						<td>Your choice - with or without cheese<br>Iceburg lettuce, tomatoes, peppers<br>Thousand Island or Ranch<br>Served with a dinner roll</td>
+						<td>Smoked Brisket on thick-cut<br>Texas Toast<br>Cole Slaw<br>Served with our famous thick-cut french fries</td>
+					</tr>
+					<tr id="price">
+						<td>$8.95</td>
+						<td>$6.95</td>
+						<td>$7.95</td>
+					</tr>
+				</table>
+				<table style="text-align: left;">
+					<th colspan="2">Beverages</th>
+					<tr><td class="drink">Root Beer</td><td>$3.00</td></tr>
+					<tr><td class="drink">Bottled Water</td><td>$1.25</td></tr>
+					<tr><td class="drink">Lemonade</td><td>$1.00</td></tr>
+					<tr><td class="drink">Iced Tea</td><td>$1.25</td></tr>
+				</table>
+			</article>
+		</section>
+			
+		<footer>
+			<hr />
+			<p>15 S 5th St #600, Minneapolis, MN 55402</p>
+			<p>(855)599-9584</p>
+		</footer>
+	</body>
+	<!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>
